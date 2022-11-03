@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  width: auto;
+  height: 450px;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  align-self: top;
+  /* testing these */
+  justify-content: center;
+  color: white;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+
+}
+
+/* BANNER BUTTON HERE */
+
+.btn-yours {
+  background-color: #272c29;
+  color: white;
+  border-radius: 35px;
+  padding: 13px 17px;
+  box-shadow: 1px 1px 3px rgb(135, 127, 127);
+  margin: 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-yours:hover{
+  background-color: #817575;
+}
+
+
+/* HOW IT WORKS STARTS HERE */
+
+.bottom {
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  ;
+}
+
+.card {
+  flex-direction: column;
+  width: 242px;
+  height: 315px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 3px rgb(135, 127, 127);
+  margin: 35px;
+}
+
+.card img {
+  width: 150px;
+  height: 115px;
+  text-align: center;
+}
+
+/* THIS IS WHERE THE FOOTER BEGINS */
+
+.footer {
+  max-width: 100%;
+  height: 150px;
+  background-color: #2C2B2B;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer p{
+  color: white;
+  text-align: center;
+}
+
+.footer i{
+  padding-top: 50px;
+  color:white;
+  font-size: 50px;
+}
